@@ -63,8 +63,6 @@
 }
 
 
-
-
 /*-----------------------------------*\
  * #RESET
 \*-----------------------------------*/
@@ -106,9 +104,6 @@ html {
 }
 
 body { background: var(--white); }
-
-
-
 
 
 /*-----------------------------------*\
@@ -514,9 +509,6 @@ body { background: var(--white); }
 }
 
 
-
-
-
 /*-----------------------------------*\
  * #CTA
 \*-----------------------------------*/
@@ -529,9 +521,6 @@ body { background: var(--white); }
 .cta :is(.section-subtitle, .section-title, .section-text) { color: var(--white); }
 
 .cta .section-text { font-size: var(--fs-5); }
-
-
-
 
 
 /*-----------------------------------*\
@@ -817,9 +806,6 @@ address {
 }
 
 
-
-
-
 /**
  * responsive for larger than 768px screen
  */
@@ -890,33 +876,6 @@ address {
   .popular-list > li:not(:last-child) { margin-bottom: 0; }
 
   .popular-card .card-content { right: 20px; }
-
-
-
-  /**
-   * PACKAGE
-   */
-
-  .package-list { margin-bottom: 50px; }
-
-  .package-list > li:not(:last-child) { margin-bottom: 40px; }
-
-  .package-card {
-    display: grid;
-    grid-template-columns: 1.3fr 1.5fr 1fr;
-  }
-
-  .package-card .card-banner { height: 100%; }
-
-  .package-card .card-content { padding: 40px; }
-
-  .package-card .card-price {
-    display: grid;
-    place-content: center;
-  }
-
-  .package-card .card-price .wrapper { margin-bottom: 15px; }
-
 
 
   /**
@@ -1063,18 +1022,6 @@ address {
 
   .popular-list { grid-template-columns: repeat(3, 1fr); }
 
-
-
-  /**
-   * PACKAGE
-   */
-
-  .meta-box { --fs-8: 13px; }
-
-  .meta-box > ion-icon { font-size: 15px; }
-
-
-
   /**
    * CTA 
    */
@@ -1099,7 +1046,6 @@ address {
   .footer-form .btn { width: 100%; }
 
 }
-
 
 
 /**
