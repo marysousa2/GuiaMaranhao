@@ -303,7 +303,10 @@ body { background: var(--white); }
   padding: 40px 15px;
 }
 
-.navbar-top .logo img { width: 150px; }
+.navbar-top {
+  width: 15px;
+}
+.logo img { width: 150px; }
 
 .nav-close-btn {
   font-size: 20px;
