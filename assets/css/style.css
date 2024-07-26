@@ -225,11 +225,11 @@ body { background: var(--white); }
   color: var(--white);
 }
 
-.helpline-box .icon-box ion-icon { --ionicon-stroke-width: 40px; }
+.helpline-box .icon-box ion-icon { --ionicon-stroke-width: 20px; }
 
 .header-top .logo { margin-inline: auto; }
 
-.header-top .logo img { max-width: 100px; }
+.header-top .logo img { max-width: 10px; }
 
 .header-btn-group {
   justify-self: flex-end;
