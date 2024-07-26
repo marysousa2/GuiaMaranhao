@@ -63,9 +63,6 @@
 }
 
 
-
-
-
 /*-----------------------------------*\
  * #RESET
 \*-----------------------------------*/
@@ -235,7 +232,7 @@ body { background: var(--white); }
 
 .header-top .logo { margin-inline: auto; }
 
-.header-top .logo img { max-width: 100px; }
+.header-top .logo img { max-width: 10px; }
 
 .header-btn-group {
   justify-self: flex-end;
