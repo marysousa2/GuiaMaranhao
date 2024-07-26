@@ -233,7 +233,7 @@ body { background: var(--white); }
 
 .header-btn-group {
   justify-self: flex-end;
-  display: fldex;
+  display: flex;
   align-items: center;
   gap: 10px;
   color: var(--white);
