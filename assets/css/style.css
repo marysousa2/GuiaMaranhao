@@ -221,7 +221,7 @@ body { background: var(--white); }
   color: var(--white);
 }
 
-.helpline-box .icon-box ion-icon { --ionicon-stroke-width: 40px; }
+.helpline-box .icon-box ion-icon { --ionicon-stroke-width: 0px; }
 
 .header-top .logo { margin-inline: auto; }
 
@@ -736,7 +736,6 @@ address {
     --fs-5: 14px;
     --padding: 6px 20px;
   }
-
 
 
   /**
