@@ -345,7 +345,7 @@ body { background: var(--white); }
 \*-----------------------------------*/
 
 .hero {
-  background-image: url("../images/");
+  background-image: url("../images/image-removebg-preview.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
