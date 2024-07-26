@@ -198,6 +198,7 @@ body { background: var(--white); }
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
   padding-block: 15px;
   z-index: 1;
+  background:blue
 }
 
 .header.active .header-top {
@@ -221,7 +222,7 @@ body { background: var(--white); }
   color: var(--white);
 }
 
-.helpline-box .icon-box ion-icon { --ionicon-stroke-width: 20px; }
+.helpline-box .icon-box ion-icon { --ionicon-stroke-width: 40px; }
 
 .header-top .logo { margin-inline: auto; }
 
