@@ -198,7 +198,6 @@ body { background: var(--white); }
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
   padding-block: 15px;
   z-index: 1;
-  background:blue
 }
 
 .header.active .header-top {
