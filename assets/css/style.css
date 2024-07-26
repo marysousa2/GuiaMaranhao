@@ -208,7 +208,7 @@ body { background: var(--white); }
 .header-top .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-items: flex-start;
+  justify-items: center; /* Ajustado para centralizar o conteúdo */
   align-items: center;
 }
 
@@ -221,18 +221,16 @@ body { background: var(--white); }
   color: var(--white);
 }
 
-.helpline-box .icon-box ion-icon { --ionicon-stroke-width: 0px; }
+.helpline-box .icon-box ion-icon { --ionicon-stroke-width: 40px; }
 
-.header-top .logo { margin-inline: auto; }
-
-.header-top .logo img { max-width: 100px; }
+.header-top .logo img { max-width: 150px; /* Ajustar conforme necessário */ }
 
 .header-btn-group {
-  justify-self: flex-end;
   display: flex;
   align-items: center;
   gap: 10px;
   color: var(--white);
+  justify-self: end; /* Manter alinhado à direita */
 }
 
 .search-btn,
