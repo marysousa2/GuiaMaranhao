@@ -223,7 +223,8 @@ body { background: var(--white); }
 
 .helpline-box .icon-box ion-icon { --ionicon-stroke-width: 40px; }
 
-.header-top .logo img { max-width: 150px; /* Ajustar conforme necessário */ }
+.header-top .logo img { max-width: 150px; 
+  justify-items:center; }
 
 .header-btn-group {
   display: flex;
