@@ -231,7 +231,7 @@ body { background: var(--white); }
   align-items: center;
   gap: 10px;
   color: var(--white);
-  justify-self: end; /* Manter alinhado à direita */
+  justify-self: left; /* Manter alinhado à direita */
 }
 
 .search-btn,
@@ -346,7 +346,7 @@ body { background: var(--white); }
 \*-----------------------------------*/
 
 .hero {
-  background-image: url("../images/image-removebg-preview.png");
+  background-image: url("../images/Imagem1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
