@@ -44,8 +44,3 @@ window.addEventListener("scroll", function () {
   }
 
 });
-
-
-
-
-
