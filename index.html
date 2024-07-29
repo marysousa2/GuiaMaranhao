@@ -6,7 +6,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MaraTour</title>
-
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+      #map { height: 400px; }
+      .destino-details { display: none; }
+  </style>
+</head>
+<body>
+  <h1>Guia Turístico do Maranhão</h1>
+  <input type="text" id="search-input" placeholder="Buscar destino...">
+  <button onclick="searchDestinos()">Buscar</button>
+  <div id="map"></div>
+  <div id="destino-details" class="destino-details">
+      <h2 id="destino-nome"></h2>
+      <div id="destino-fotos"></div>
+      <p id="destino-descricao"></p>
+      <h3>Atrativos:</h3>
+      <ul id="destino-atrativos"></ul>
+  </div>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
   <!-- 
     - favicon
   -->
