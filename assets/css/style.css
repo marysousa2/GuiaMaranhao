@@ -428,10 +428,10 @@ body { background: var(--white); }
   position: relative;
   overflow: hidden;
   border-radius: var(--radius-25);
-  height: 430px;
+  height: 400px;
 }
 
-.popular-card .card-img { height: 100%; }
+.popular-card .card-img { height:100%; }
 
 .popular-card .card-img img {
   width: 100%;
@@ -441,12 +441,12 @@ body { background: var(--white); }
 
 .popular-card .card-content {
   position: absolute;
-  bottom: 20px;
-  left: 20px;
-  right: 20px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
   background: var(--white);
   border-radius: var(--radius-25);
-  padding: 20px;
+  padding: 10px;
 }
 
 
