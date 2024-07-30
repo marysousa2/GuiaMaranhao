@@ -205,12 +205,6 @@ body { background: var(--white); }
   background: var(--gunmetal);
 }
 
-.header-top .container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center; /* Ajustado para centralizar o conteúdo */
-  align-items: center;
-}
 
 .helpline-box .wrapper { display: none; }
 
@@ -231,7 +225,6 @@ body { background: var(--white); }
   align-items: center;
   gap: 10px;
   color: var(--white);
-  justify-self: left; /* Manter alinhado à direita */
 }
 
 .search-btn,
@@ -241,6 +234,26 @@ body { background: var(--white); }
 }
 
 .search-btn { font-size: 20px; }
+/* Certifique-se de que o contêiner do grupo de botões ocupe toda a largura disponível */
+.header-btn-group {
+  display: flex;
+  justify-content: flex-end; /* Alinha os itens filhos à direita */
+  width: 100%;
+}
+
+/* Adicione estilos para os botões, se necessário */
+.header-btn-group .search-btn,
+.header-btn-group .nav-open-btn {
+  margin-left: 10px; /* Espaçamento entre os botões */
+}
+
+/* Opcional: ajustes de estilo adicionais para o contêiner */
+.right-align {
+  position: absolute; /* Se o contêiner precisar ser posicionado absolutamente */
+  top: 10px; /* Ajuste conforme necessário */
+  right: 10px; /* Ajuste conforme necessário */
+}
+
 
 .header-bottom { border-bottom: 1px solid hsla(0, 0%, 100%, 0.1); }
 
@@ -299,7 +312,7 @@ body { background: var(--white); }
 }
 
 .navbar-top {
-  width: 200px;
+  width: 100px;
 }
 .logo img { width: 200px; }
 
